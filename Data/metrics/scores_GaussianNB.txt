@@ -1,0 +1,128 @@
+Encoding method: backwarddifference_encoded.csv
+Average ROC AUC score: 0.68
+Average F1 score: 0.38
+Average Accuracy: 0.37
+Average Precision: 0.54
+Average Recall: 0.37
+Average MCC: 0.19
+
+Encoding method: basen_encoded.csv
+Average ROC AUC score: 0.64
+Average F1 score: 0.38
+Average Accuracy: 0.38
+Average Precision: 0.51
+Average Recall: 0.38
+Average MCC: 0.21
+
+Encoding method: binary_encoded.csv
+Average ROC AUC score: 0.68
+Average F1 score: 0.29
+Average Accuracy: 0.25
+Average Precision: 0.58
+Average Recall: 0.25
+Average MCC: 0.15
+
+Encoding method: catboost_encoded.csv
+Average ROC AUC score: 0.70
+Average F1 score: 0.49
+Average Accuracy: 0.55
+Average Precision: 0.49
+Average Recall: 0.55
+Average MCC: 0.28
+
+Encoding method: frequency_encoded.csv
+Average ROC AUC score: 0.66
+Average F1 score: 0.38
+Average Accuracy: 0.37
+Average Precision: 0.50
+Average Recall: 0.37
+Average MCC: 0.21
+
+Encoding method: hashing_encoded.csv
+Average ROC AUC score: 0.66
+Average F1 score: 0.36
+Average Accuracy: 0.37
+Average Precision: 0.44
+Average Recall: 0.37
+Average MCC: 0.19
+
+Encoding method: helmert_encoded.csv
+Average ROC AUC score: 0.66
+Average F1 score: 0.37
+Average Accuracy: 0.37
+Average Precision: 0.49
+Average Recall: 0.37
+Average MCC: 0.20
+
+Encoding method: jamesstein_encoded.csv
+Average ROC AUC score: 0.70
+Average F1 score: 0.39
+Average Accuracy: 0.40
+Average Precision: 0.47
+Average Recall: 0.40
+Average MCC: 0.20
+
+Encoding method: label_encoded.csv
+Average ROC AUC score: 0.68
+Average F1 score: 0.39
+Average Accuracy: 0.37
+Average Precision: 0.53
+Average Recall: 0.37
+Average MCC: 0.21
+
+Encoding method: leaveoneout_encoded.csv
+Average ROC AUC score: 0.78
+Average F1 score: 0.56
+Average Accuracy: 0.60
+Average Precision: 0.59
+Average Recall: 0.60
+Average MCC: 0.38
+
+Encoding method: mca_encoded.csv
+Average ROC AUC score: 0.86
+Average F1 score: 0.61
+Average Accuracy: 0.64
+Average Precision: 0.62
+Average Recall: 0.64
+Average MCC: 0.44
+
+Encoding method: mestimate_encoded.csv
+Average ROC AUC score: 0.72
+Average F1 score: 0.42
+Average Accuracy: 0.42
+Average Precision: 0.55
+Average Recall: 0.42
+Average MCC: 0.24
+
+Encoding method: onehot_encoded.csv
+Average ROC AUC score: 0.66
+Average F1 score: 0.25
+Average Accuracy: 0.22
+Average Precision: 0.45
+Average Recall: 0.22
+Average MCC: 0.12
+
+Encoding method: ordinal_encoded.csv
+Average ROC AUC score: 0.68
+Average F1 score: 0.39
+Average Accuracy: 0.37
+Average Precision: 0.53
+Average Recall: 0.37
+Average MCC: 0.21
+
+Encoding method: polynomial_encoded.csv
+Average ROC AUC score: 0.68
+Average F1 score: 0.38
+Average Accuracy: 0.36
+Average Precision: 0.50
+Average Recall: 0.36
+Average MCC: 0.20
+
+Encoding method: sum_encoded.csv
+Average ROC AUC score: 0.68
+Average F1 score: 0.38
+Average Accuracy: 0.38
+Average Precision: 0.52
+Average Recall: 0.38
+Average MCC: 0.21
+

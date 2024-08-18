@@ -1,0 +1,721 @@
+ML Method,Encoding Method,Metric,Value
+AdaBoost_SAMME,backwarddifference,Average F1 score,0.46
+DecisionTree,backwarddifference,Average F1 score,0.51
+GaussianNB,backwarddifference,Average F1 score,0.38
+KNN,backwarddifference,Average F1 score,0.51
+LogisticRegression,backwarddifference,Average F1 score,0.44
+MLP,backwarddifference,Average F1 score,0.46
+NeuralNetwork,backwarddifference,Average F1 score,0.44
+RandomForest,backwarddifference,Average F1 score,0.51
+SVM,backwarddifference,Average F1 score,0.45
+AdaBoost_SAMME,backwarddifference,Average Accuracy,0.54
+DecisionTree,backwarddifference,Average Accuracy,0.56
+GaussianNB,backwarddifference,Average Accuracy,0.37
+KNN,backwarddifference,Average Accuracy,0.56
+LogisticRegression,backwarddifference,Average Accuracy,0.53
+MLP,backwarddifference,Average Accuracy,0.53
+NeuralNetwork,backwarddifference,Average Accuracy,0.53
+RandomForest,backwarddifference,Average Accuracy,0.55
+SVM,backwarddifference,Average Accuracy,0.52
+AdaBoost_SAMME,backwarddifference,Average Precision,0.48
+DecisionTree,backwarddifference,Average Precision,0.51
+GaussianNB,backwarddifference,Average Precision,0.54
+KNN,backwarddifference,Average Precision,0.49
+LogisticRegression,backwarddifference,Average Precision,0.43
+MLP,backwarddifference,Average Precision,0.42
+NeuralNetwork,backwarddifference,Average Precision,0.41
+RandomForest,backwarddifference,Average Precision,0.5
+SVM,backwarddifference,Average Precision,0.41
+AdaBoost_SAMME,backwarddifference,Average Recall,0.54
+DecisionTree,backwarddifference,Average Recall,0.56
+GaussianNB,backwarddifference,Average Recall,0.37
+KNN,backwarddifference,Average Recall,0.56
+LogisticRegression,backwarddifference,Average Recall,0.53
+MLP,backwarddifference,Average Recall,0.53
+NeuralNetwork,backwarddifference,Average Recall,0.53
+RandomForest,backwarddifference,Average Recall,0.55
+SVM,backwarddifference,Average Recall,0.52
+AdaBoost_SAMME,backwarddifference,Average MCC,0.24
+DecisionTree,backwarddifference,Average MCC,0.26
+GaussianNB,backwarddifference,Average MCC,0.19
+KNN,backwarddifference,Average MCC,0.27
+LogisticRegression,backwarddifference,Average MCC,0.18
+MLP,backwarddifference,Average MCC,0.2
+NeuralNetwork,backwarddifference,Average MCC,0.15
+RandomForest,backwarddifference,Average MCC,0.26
+SVM,backwarddifference,Average MCC,0.17
+AdaBoost_SAMME,basen,Average F1 score,0.44
+DecisionTree,basen,Average F1 score,0.51
+GaussianNB,basen,Average F1 score,0.38
+KNN,basen,Average F1 score,0.48
+LogisticRegression,basen,Average F1 score,0.42
+MLP,basen,Average F1 score,0.43
+NeuralNetwork,basen,Average F1 score,0.46
+RandomForest,basen,Average F1 score,0.51
+SVM,basen,Average F1 score,0.49
+AdaBoost_SAMME,basen,Average Accuracy,0.52
+DecisionTree,basen,Average Accuracy,0.56
+GaussianNB,basen,Average Accuracy,0.38
+KNN,basen,Average Accuracy,0.54
+LogisticRegression,basen,Average Accuracy,0.52
+MLP,basen,Average Accuracy,0.53
+NeuralNetwork,basen,Average Accuracy,0.55
+RandomForest,basen,Average Accuracy,0.56
+SVM,basen,Average Accuracy,0.55
+AdaBoost_SAMME,basen,Average Precision,0.42
+DecisionTree,basen,Average Precision,0.5
+GaussianNB,basen,Average Precision,0.51
+KNN,basen,Average Precision,0.46
+LogisticRegression,basen,Average Precision,0.4
+MLP,basen,Average Precision,0.38
+NeuralNetwork,basen,Average Precision,0.44
+RandomForest,basen,Average Precision,0.51
+SVM,basen,Average Precision,0.47
+AdaBoost_SAMME,basen,Average Recall,0.52
+DecisionTree,basen,Average Recall,0.56
+GaussianNB,basen,Average Recall,0.38
+KNN,basen,Average Recall,0.54
+LogisticRegression,basen,Average Recall,0.52
+MLP,basen,Average Recall,0.53
+NeuralNetwork,basen,Average Recall,0.55
+RandomForest,basen,Average Recall,0.56
+SVM,basen,Average Recall,0.55
+AdaBoost_SAMME,basen,Average MCC,0.17
+DecisionTree,basen,Average MCC,0.26
+GaussianNB,basen,Average MCC,0.21
+KNN,basen,Average MCC,0.22
+LogisticRegression,basen,Average MCC,0.14
+MLP,basen,Average MCC,0.15
+NeuralNetwork,basen,Average MCC,0.2
+RandomForest,basen,Average MCC,0.27
+SVM,basen,Average MCC,0.23
+AdaBoost_SAMME,binary,Average F1 score,0.45
+DecisionTree,binary,Average F1 score,0.5
+GaussianNB,binary,Average F1 score,0.29
+KNN,binary,Average F1 score,0.52
+LogisticRegression,binary,Average F1 score,0.45
+MLP,binary,Average F1 score,0.44
+NeuralNetwork,binary,Average F1 score,0.46
+RandomForest,binary,Average F1 score,0.51
+SVM,binary,Average F1 score,0.49
+AdaBoost_SAMME,binary,Average Accuracy,0.54
+DecisionTree,binary,Average Accuracy,0.56
+GaussianNB,binary,Average Accuracy,0.25
+KNN,binary,Average Accuracy,0.57
+LogisticRegression,binary,Average Accuracy,0.54
+MLP,binary,Average Accuracy,0.55
+NeuralNetwork,binary,Average Accuracy,0.53
+RandomForest,binary,Average Accuracy,0.56
+SVM,binary,Average Accuracy,0.55
+AdaBoost_SAMME,binary,Average Precision,0.48
+DecisionTree,binary,Average Precision,0.5
+GaussianNB,binary,Average Precision,0.58
+KNN,binary,Average Precision,0.5
+LogisticRegression,binary,Average Precision,0.43
+MLP,binary,Average Precision,0.4
+NeuralNetwork,binary,Average Precision,0.46
+RandomForest,binary,Average Precision,0.51
+SVM,binary,Average Precision,0.49
+AdaBoost_SAMME,binary,Average Recall,0.54
+DecisionTree,binary,Average Recall,0.56
+GaussianNB,binary,Average Recall,0.25
+KNN,binary,Average Recall,0.57
+LogisticRegression,binary,Average Recall,0.54
+MLP,binary,Average Recall,0.55
+NeuralNetwork,binary,Average Recall,0.53
+RandomForest,binary,Average Recall,0.56
+SVM,binary,Average Recall,0.55
+AdaBoost_SAMME,binary,Average MCC,0.19
+DecisionTree,binary,Average MCC,0.26
+GaussianNB,binary,Average MCC,0.15
+KNN,binary,Average MCC,0.29
+LogisticRegression,binary,Average MCC,0.2
+MLP,binary,Average MCC,0.23
+NeuralNetwork,binary,Average MCC,0.19
+RandomForest,binary,Average MCC,0.27
+SVM,binary,Average MCC,0.25
+AdaBoost_SAMME,catboost,Average F1 score,0.46
+DecisionTree,catboost,Average F1 score,0.52
+GaussianNB,catboost,Average F1 score,0.49
+KNN,catboost,Average F1 score,0.52
+LogisticRegression,catboost,Average F1 score,0.44
+MLP,catboost,Average F1 score,0.42
+NeuralNetwork,catboost,Average F1 score,0.44
+RandomForest,catboost,Average F1 score,0.54
+SVM,catboost,Average F1 score,0.49
+AdaBoost_SAMME,catboost,Average Accuracy,0.51
+DecisionTree,catboost,Average Accuracy,0.52
+GaussianNB,catboost,Average Accuracy,0.55
+KNN,catboost,Average Accuracy,0.56
+LogisticRegression,catboost,Average Accuracy,0.53
+MLP,catboost,Average Accuracy,0.53
+NeuralNetwork,catboost,Average Accuracy,0.54
+RandomForest,catboost,Average Accuracy,0.56
+SVM,catboost,Average Accuracy,0.55
+AdaBoost_SAMME,catboost,Average Precision,0.45
+DecisionTree,catboost,Average Precision,0.53
+GaussianNB,catboost,Average Precision,0.49
+KNN,catboost,Average Precision,0.5
+LogisticRegression,catboost,Average Precision,0.4
+MLP,catboost,Average Precision,0.39
+NeuralNetwork,catboost,Average Precision,0.45
+RandomForest,catboost,Average Precision,0.54
+SVM,catboost,Average Precision,0.48
+AdaBoost_SAMME,catboost,Average Recall,0.51
+DecisionTree,catboost,Average Recall,0.52
+GaussianNB,catboost,Average Recall,0.55
+KNN,catboost,Average Recall,0.56
+LogisticRegression,catboost,Average Recall,0.53
+MLP,catboost,Average Recall,0.53
+NeuralNetwork,catboost,Average Recall,0.54
+RandomForest,catboost,Average Recall,0.56
+SVM,catboost,Average Recall,0.55
+AdaBoost_SAMME,catboost,Average MCC,0.2
+DecisionTree,catboost,Average MCC,0.28
+GaussianNB,catboost,Average MCC,0.28
+KNN,catboost,Average MCC,0.28
+LogisticRegression,catboost,Average MCC,0.18
+MLP,catboost,Average MCC,0.16
+NeuralNetwork,catboost,Average MCC,0.18
+RandomForest,catboost,Average MCC,0.29
+SVM,catboost,Average MCC,0.24
+AdaBoost_SAMME,frequency,Average F1 score,0.47
+DecisionTree,frequency,Average F1 score,0.5
+GaussianNB,frequency,Average F1 score,0.38
+KNN,frequency,Average F1 score,0.55
+LogisticRegression,frequency,Average F1 score,0.42
+MLP,frequency,Average F1 score,0.42
+NeuralNetwork,frequency,Average F1 score,0.41
+RandomForest,frequency,Average F1 score,0.51
+SVM,frequency,Average F1 score,0.46
+AdaBoost_SAMME,frequency,Average Accuracy,0.54
+DecisionTree,frequency,Average Accuracy,0.55
+GaussianNB,frequency,Average Accuracy,0.37
+KNN,frequency,Average Accuracy,0.57
+LogisticRegression,frequency,Average Accuracy,0.52
+MLP,frequency,Average Accuracy,0.54
+NeuralNetwork,frequency,Average Accuracy,0.52
+RandomForest,frequency,Average Accuracy,0.57
+SVM,frequency,Average Accuracy,0.53
+AdaBoost_SAMME,frequency,Average Precision,0.45
+DecisionTree,frequency,Average Precision,0.5
+GaussianNB,frequency,Average Precision,0.5
+KNN,frequency,Average Precision,0.55
+LogisticRegression,frequency,Average Precision,0.37
+MLP,frequency,Average Precision,0.38
+NeuralNetwork,frequency,Average Precision,0.38
+RandomForest,frequency,Average Precision,0.51
+SVM,frequency,Average Precision,0.44
+AdaBoost_SAMME,frequency,Average Recall,0.54
+DecisionTree,frequency,Average Recall,0.55
+GaussianNB,frequency,Average Recall,0.37
+KNN,frequency,Average Recall,0.57
+LogisticRegression,frequency,Average Recall,0.52
+MLP,frequency,Average Recall,0.54
+NeuralNetwork,frequency,Average Recall,0.52
+RandomForest,frequency,Average Recall,0.57
+SVM,frequency,Average Recall,0.53
+AdaBoost_SAMME,frequency,Average MCC,0.23
+DecisionTree,frequency,Average MCC,0.24
+GaussianNB,frequency,Average MCC,0.21
+KNN,frequency,Average MCC,0.32
+LogisticRegression,frequency,Average MCC,0.13
+MLP,frequency,Average MCC,0.11
+NeuralNetwork,frequency,Average MCC,0.11
+RandomForest,frequency,Average MCC,0.27
+SVM,frequency,Average MCC,0.19
+AdaBoost_SAMME,hashing,Average F1 score,0.4
+DecisionTree,hashing,Average F1 score,0.47
+GaussianNB,hashing,Average F1 score,0.36
+KNN,hashing,Average F1 score,0.46
+LogisticRegression,hashing,Average F1 score,0.42
+MLP,hashing,Average F1 score,0.39
+NeuralNetwork,hashing,Average F1 score,0.42
+RandomForest,hashing,Average F1 score,0.46
+SVM,hashing,Average F1 score,0.37
+AdaBoost_SAMME,hashing,Average Accuracy,0.52
+DecisionTree,hashing,Average Accuracy,0.56
+GaussianNB,hashing,Average Accuracy,0.37
+KNN,hashing,Average Accuracy,0.51
+LogisticRegression,hashing,Average Accuracy,0.54
+MLP,hashing,Average Accuracy,0.52
+NeuralNetwork,hashing,Average Accuracy,0.55
+RandomForest,hashing,Average Accuracy,0.55
+SVM,hashing,Average Accuracy,0.53
+AdaBoost_SAMME,hashing,Average Precision,0.34
+DecisionTree,hashing,Average Precision,0.46
+GaussianNB,hashing,Average Precision,0.44
+KNN,hashing,Average Precision,0.47
+LogisticRegression,hashing,Average Precision,0.39
+MLP,hashing,Average Precision,0.32
+NeuralNetwork,hashing,Average Precision,0.4
+RandomForest,hashing,Average Precision,0.45
+SVM,hashing,Average Precision,0.29
+AdaBoost_SAMME,hashing,Average Recall,0.52
+DecisionTree,hashing,Average Recall,0.56
+GaussianNB,hashing,Average Recall,0.37
+KNN,hashing,Average Recall,0.51
+LogisticRegression,hashing,Average Recall,0.54
+MLP,hashing,Average Recall,0.52
+NeuralNetwork,hashing,Average Recall,0.55
+RandomForest,hashing,Average Recall,0.55
+SVM,hashing,Average Recall,0.53
+AdaBoost_SAMME,hashing,Average MCC,0.12
+DecisionTree,hashing,Average MCC,0.22
+GaussianNB,hashing,Average MCC,0.19
+KNN,hashing,Average MCC,0.18
+LogisticRegression,hashing,Average MCC,0.15
+MLP,hashing,Average MCC,0.05
+NeuralNetwork,hashing,Average MCC,0.14
+RandomForest,hashing,Average MCC,0.2
+SVM,hashing,Average MCC,0.06
+AdaBoost_SAMME,helmert,Average F1 score,0.45
+DecisionTree,helmert,Average F1 score,0.5
+GaussianNB,helmert,Average F1 score,0.37
+KNN,helmert,Average F1 score,0.5
+LogisticRegression,helmert,Average F1 score,0.47
+MLP,helmert,Average F1 score,0.48
+NeuralNetwork,helmert,Average F1 score,0.48
+RandomForest,helmert,Average F1 score,0.51
+SVM,helmert,Average F1 score,0.49
+AdaBoost_SAMME,helmert,Average Accuracy,0.51
+DecisionTree,helmert,Average Accuracy,0.55
+GaussianNB,helmert,Average Accuracy,0.37
+KNN,helmert,Average Accuracy,0.54
+LogisticRegression,helmert,Average Accuracy,0.53
+MLP,helmert,Average Accuracy,0.56
+NeuralNetwork,helmert,Average Accuracy,0.54
+RandomForest,helmert,Average Accuracy,0.56
+SVM,helmert,Average Accuracy,0.55
+AdaBoost_SAMME,helmert,Average Precision,0.45
+DecisionTree,helmert,Average Precision,0.5
+GaussianNB,helmert,Average Precision,0.49
+KNN,helmert,Average Precision,0.49
+LogisticRegression,helmert,Average Precision,0.47
+MLP,helmert,Average Precision,0.52
+NeuralNetwork,helmert,Average Precision,0.44
+RandomForest,helmert,Average Precision,0.5
+SVM,helmert,Average Precision,0.48
+AdaBoost_SAMME,helmert,Average Recall,0.51
+DecisionTree,helmert,Average Recall,0.55
+GaussianNB,helmert,Average Recall,0.37
+KNN,helmert,Average Recall,0.54
+LogisticRegression,helmert,Average Recall,0.53
+MLP,helmert,Average Recall,0.56
+NeuralNetwork,helmert,Average Recall,0.54
+RandomForest,helmert,Average Recall,0.56
+SVM,helmert,Average Recall,0.55
+AdaBoost_SAMME,helmert,Average MCC,0.19
+DecisionTree,helmert,Average MCC,0.25
+GaussianNB,helmert,Average MCC,0.2
+KNN,helmert,Average MCC,0.25
+LogisticRegression,helmert,Average MCC,0.2
+MLP,helmert,Average MCC,0.25
+NeuralNetwork,helmert,Average MCC,0.21
+RandomForest,helmert,Average MCC,0.26
+SVM,helmert,Average MCC,0.23
+AdaBoost_SAMME,jamesstein,Average F1 score,0.47
+DecisionTree,jamesstein,Average F1 score,0.51
+GaussianNB,jamesstein,Average F1 score,0.39
+KNN,jamesstein,Average F1 score,0.51
+LogisticRegression,jamesstein,Average F1 score,0.46
+MLP,jamesstein,Average F1 score,0.37
+NeuralNetwork,jamesstein,Average F1 score,0.43
+RandomForest,jamesstein,Average F1 score,0.52
+SVM,jamesstein,Average F1 score,0.49
+AdaBoost_SAMME,jamesstein,Average Accuracy,0.54
+DecisionTree,jamesstein,Average Accuracy,0.56
+GaussianNB,jamesstein,Average Accuracy,0.4
+KNN,jamesstein,Average Accuracy,0.55
+LogisticRegression,jamesstein,Average Accuracy,0.55
+MLP,jamesstein,Average Accuracy,0.53
+NeuralNetwork,jamesstein,Average Accuracy,0.54
+RandomForest,jamesstein,Average Accuracy,0.57
+SVM,jamesstein,Average Accuracy,0.55
+AdaBoost_SAMME,jamesstein,Average Precision,0.47
+DecisionTree,jamesstein,Average Precision,0.5
+GaussianNB,jamesstein,Average Precision,0.47
+KNN,jamesstein,Average Precision,0.5
+LogisticRegression,jamesstein,Average Precision,0.43
+MLP,jamesstein,Average Precision,0.28
+NeuralNetwork,jamesstein,Average Precision,0.39
+RandomForest,jamesstein,Average Precision,0.52
+SVM,jamesstein,Average Precision,0.5
+AdaBoost_SAMME,jamesstein,Average Recall,0.54
+DecisionTree,jamesstein,Average Recall,0.56
+GaussianNB,jamesstein,Average Recall,0.4
+KNN,jamesstein,Average Recall,0.55
+LogisticRegression,jamesstein,Average Recall,0.55
+MLP,jamesstein,Average Recall,0.53
+NeuralNetwork,jamesstein,Average Recall,0.54
+RandomForest,jamesstein,Average Recall,0.57
+SVM,jamesstein,Average Recall,0.55
+AdaBoost_SAMME,jamesstein,Average MCC,0.23
+DecisionTree,jamesstein,Average MCC,0.26
+GaussianNB,jamesstein,Average MCC,0.2
+KNN,jamesstein,Average MCC,0.28
+LogisticRegression,jamesstein,Average MCC,0.24
+MLP,jamesstein,Average MCC,0.0
+NeuralNetwork,jamesstein,Average MCC,0.18
+RandomForest,jamesstein,Average MCC,0.29
+SVM,jamesstein,Average MCC,0.26
+AdaBoost_SAMME,label,Average F1 score,0.48
+DecisionTree,label,Average F1 score,0.5
+GaussianNB,label,Average F1 score,0.39
+KNN,label,Average F1 score,0.55
+LogisticRegression,label,Average F1 score,0.41
+MLP,label,Average F1 score,0.41
+NeuralNetwork,label,Average F1 score,0.43
+RandomForest,label,Average F1 score,0.52
+SVM,label,Average F1 score,0.47
+AdaBoost_SAMME,label,Average Accuracy,0.54
+DecisionTree,label,Average Accuracy,0.56
+GaussianNB,label,Average Accuracy,0.37
+KNN,label,Average Accuracy,0.58
+LogisticRegression,label,Average Accuracy,0.51
+MLP,label,Average Accuracy,0.51
+NeuralNetwork,label,Average Accuracy,0.54
+RandomForest,label,Average Accuracy,0.57
+SVM,label,Average Accuracy,0.54
+AdaBoost_SAMME,label,Average Precision,0.52
+DecisionTree,label,Average Precision,0.5
+GaussianNB,label,Average Precision,0.53
+KNN,label,Average Precision,0.56
+LogisticRegression,label,Average Precision,0.37
+MLP,label,Average Precision,0.36
+NeuralNetwork,label,Average Precision,0.4
+RandomForest,label,Average Precision,0.53
+SVM,label,Average Precision,0.45
+AdaBoost_SAMME,label,Average Recall,0.54
+DecisionTree,label,Average Recall,0.56
+GaussianNB,label,Average Recall,0.37
+KNN,label,Average Recall,0.58
+LogisticRegression,label,Average Recall,0.51
+MLP,label,Average Recall,0.51
+NeuralNetwork,label,Average Recall,0.54
+RandomForest,label,Average Recall,0.57
+SVM,label,Average Recall,0.54
+AdaBoost_SAMME,label,Average MCC,0.24
+DecisionTree,label,Average MCC,0.25
+GaussianNB,label,Average MCC,0.21
+KNN,label,Average MCC,0.33
+LogisticRegression,label,Average MCC,0.12
+MLP,label,Average MCC,0.11
+NeuralNetwork,label,Average MCC,0.15
+RandomForest,label,Average MCC,0.28
+SVM,label,Average MCC,0.2
+AdaBoost_SAMME,leaveoneout,Average F1 score,0.95
+DecisionTree,leaveoneout,Average F1 score,0.97
+GaussianNB,leaveoneout,Average F1 score,0.56
+KNN,leaveoneout,Average F1 score,0.73
+LogisticRegression,leaveoneout,Average F1 score,0.45
+MLP,leaveoneout,Average F1 score,0.43
+NeuralNetwork,leaveoneout,Average F1 score,0.44
+RandomForest,leaveoneout,Average F1 score,0.97
+SVM,leaveoneout,Average F1 score,0.5
+AdaBoost_SAMME,leaveoneout,Average Accuracy,0.95
+DecisionTree,leaveoneout,Average Accuracy,0.97
+GaussianNB,leaveoneout,Average Accuracy,0.6
+KNN,leaveoneout,Average Accuracy,0.74
+LogisticRegression,leaveoneout,Average Accuracy,0.53
+MLP,leaveoneout,Average Accuracy,0.54
+NeuralNetwork,leaveoneout,Average Accuracy,0.55
+RandomForest,leaveoneout,Average Accuracy,0.98
+SVM,leaveoneout,Average Accuracy,0.56
+AdaBoost_SAMME,leaveoneout,Average Precision,0.96
+DecisionTree,leaveoneout,Average Precision,0.97
+GaussianNB,leaveoneout,Average Precision,0.59
+KNN,leaveoneout,Average Precision,0.73
+LogisticRegression,leaveoneout,Average Precision,0.45
+MLP,leaveoneout,Average Precision,0.43
+NeuralNetwork,leaveoneout,Average Precision,0.4
+RandomForest,leaveoneout,Average Precision,0.98
+SVM,leaveoneout,Average Precision,0.52
+AdaBoost_SAMME,leaveoneout,Average Recall,0.95
+DecisionTree,leaveoneout,Average Recall,0.97
+GaussianNB,leaveoneout,Average Recall,0.6
+KNN,leaveoneout,Average Recall,0.74
+LogisticRegression,leaveoneout,Average Recall,0.53
+MLP,leaveoneout,Average Recall,0.54
+NeuralNetwork,leaveoneout,Average Recall,0.55
+RandomForest,leaveoneout,Average Recall,0.98
+SVM,leaveoneout,Average Recall,0.56
+AdaBoost_SAMME,leaveoneout,Average MCC,0.93
+DecisionTree,leaveoneout,Average MCC,0.96
+GaussianNB,leaveoneout,Average MCC,0.38
+KNN,leaveoneout,Average MCC,0.6
+LogisticRegression,leaveoneout,Average MCC,0.2
+MLP,leaveoneout,Average MCC,0.19
+NeuralNetwork,leaveoneout,Average MCC,0.22
+RandomForest,leaveoneout,Average MCC,0.96
+SVM,leaveoneout,Average MCC,0.27
+AdaBoost_SAMME,mca,Average F1 score,0.75
+DecisionTree,mca,Average F1 score,0.9
+GaussianNB,mca,Average F1 score,0.61
+KNN,mca,Average F1 score,0.79
+LogisticRegression,mca,Average F1 score,0.67
+MLP,mca,Average F1 score,0.76
+NeuralNetwork,mca,Average F1 score,0.6
+RandomForest,mca,Average F1 score,0.9
+SVM,mca,Average F1 score,0.73
+AdaBoost_SAMME,mca,Average Accuracy,0.78
+DecisionTree,mca,Average Accuracy,0.91
+GaussianNB,mca,Average Accuracy,0.64
+KNN,mca,Average Accuracy,0.79
+LogisticRegression,mca,Average Accuracy,0.7
+MLP,mca,Average Accuracy,0.78
+NeuralNetwork,mca,Average Accuracy,0.66
+RandomForest,mca,Average Accuracy,0.91
+SVM,mca,Average Accuracy,0.76
+AdaBoost_SAMME,mca,Average Precision,0.76
+DecisionTree,mca,Average Precision,0.91
+GaussianNB,mca,Average Precision,0.62
+KNN,mca,Average Precision,0.79
+LogisticRegression,mca,Average Precision,0.66
+MLP,mca,Average Precision,0.78
+NeuralNetwork,mca,Average Precision,0.58
+RandomForest,mca,Average Precision,0.91
+SVM,mca,Average Precision,0.73
+AdaBoost_SAMME,mca,Average Recall,0.78
+DecisionTree,mca,Average Recall,0.91
+GaussianNB,mca,Average Recall,0.64
+KNN,mca,Average Recall,0.79
+LogisticRegression,mca,Average Recall,0.7
+MLP,mca,Average Recall,0.78
+NeuralNetwork,mca,Average Recall,0.66
+RandomForest,mca,Average Recall,0.91
+SVM,mca,Average Recall,0.76
+AdaBoost_SAMME,mca,Average MCC,0.65
+DecisionTree,mca,Average MCC,0.86
+GaussianNB,mca,Average MCC,0.44
+KNN,mca,Average MCC,0.68
+LogisticRegression,mca,Average MCC,0.53
+MLP,mca,Average MCC,0.66
+NeuralNetwork,mca,Average MCC,0.43
+RandomForest,mca,Average MCC,0.86
+SVM,mca,Average MCC,0.63
+AdaBoost_SAMME,mestimate,Average F1 score,0.47
+DecisionTree,mestimate,Average F1 score,0.51
+GaussianNB,mestimate,Average F1 score,0.42
+KNN,mestimate,Average F1 score,0.5
+LogisticRegression,mestimate,Average F1 score,0.46
+MLP,mestimate,Average F1 score,0.42
+NeuralNetwork,mestimate,Average F1 score,0.45
+RandomForest,mestimate,Average F1 score,0.52
+SVM,mestimate,Average F1 score,0.51
+AdaBoost_SAMME,mestimate,Average Accuracy,0.54
+DecisionTree,mestimate,Average Accuracy,0.56
+GaussianNB,mestimate,Average Accuracy,0.42
+KNN,mestimate,Average Accuracy,0.54
+LogisticRegression,mestimate,Average Accuracy,0.54
+MLP,mestimate,Average Accuracy,0.54
+NeuralNetwork,mestimate,Average Accuracy,0.56
+RandomForest,mestimate,Average Accuracy,0.57
+SVM,mestimate,Average Accuracy,0.56
+AdaBoost_SAMME,mestimate,Average Precision,0.47
+DecisionTree,mestimate,Average Precision,0.5
+GaussianNB,mestimate,Average Precision,0.55
+KNN,mestimate,Average Precision,0.49
+LogisticRegression,mestimate,Average Precision,0.44
+MLP,mestimate,Average Precision,0.42
+NeuralNetwork,mestimate,Average Precision,0.42
+RandomForest,mestimate,Average Precision,0.51
+SVM,mestimate,Average Precision,0.53
+AdaBoost_SAMME,mestimate,Average Recall,0.54
+DecisionTree,mestimate,Average Recall,0.56
+GaussianNB,mestimate,Average Recall,0.42
+KNN,mestimate,Average Recall,0.54
+LogisticRegression,mestimate,Average Recall,0.54
+MLP,mestimate,Average Recall,0.54
+NeuralNetwork,mestimate,Average Recall,0.56
+RandomForest,mestimate,Average Recall,0.57
+SVM,mestimate,Average Recall,0.56
+AdaBoost_SAMME,mestimate,Average MCC,0.23
+DecisionTree,mestimate,Average MCC,0.26
+GaussianNB,mestimate,Average MCC,0.24
+KNN,mestimate,Average MCC,0.27
+LogisticRegression,mestimate,Average MCC,0.23
+MLP,mestimate,Average MCC,0.18
+NeuralNetwork,mestimate,Average MCC,0.21
+RandomForest,mestimate,Average MCC,0.28
+SVM,mestimate,Average MCC,0.27
+AdaBoost_SAMME,onehot,Average F1 score,0.45
+DecisionTree,onehot,Average F1 score,0.5
+GaussianNB,onehot,Average F1 score,0.25
+KNN,onehot,Average F1 score,0.51
+LogisticRegression,onehot,Average F1 score,0.45
+MLP,onehot,Average F1 score,0.49
+NeuralNetwork,onehot,Average F1 score,0.45
+RandomForest,onehot,Average F1 score,0.51
+SVM,onehot,Average F1 score,0.49
+AdaBoost_SAMME,onehot,Average Accuracy,0.52
+DecisionTree,onehot,Average Accuracy,0.55
+GaussianNB,onehot,Average Accuracy,0.22
+KNN,onehot,Average Accuracy,0.55
+LogisticRegression,onehot,Average Accuracy,0.52
+MLP,onehot,Average Accuracy,0.56
+NeuralNetwork,onehot,Average Accuracy,0.53
+RandomForest,onehot,Average Accuracy,0.56
+SVM,onehot,Average Accuracy,0.55
+AdaBoost_SAMME,onehot,Average Precision,0.47
+DecisionTree,onehot,Average Precision,0.49
+GaussianNB,onehot,Average Precision,0.45
+KNN,onehot,Average Precision,0.5
+LogisticRegression,onehot,Average Precision,0.45
+MLP,onehot,Average Precision,0.51
+NeuralNetwork,onehot,Average Precision,0.42
+RandomForest,onehot,Average Precision,0.51
+SVM,onehot,Average Precision,0.48
+AdaBoost_SAMME,onehot,Average Recall,0.52
+DecisionTree,onehot,Average Recall,0.55
+GaussianNB,onehot,Average Recall,0.22
+KNN,onehot,Average Recall,0.55
+LogisticRegression,onehot,Average Recall,0.52
+MLP,onehot,Average Recall,0.56
+NeuralNetwork,onehot,Average Recall,0.53
+RandomForest,onehot,Average Recall,0.56
+SVM,onehot,Average Recall,0.55
+AdaBoost_SAMME,onehot,Average MCC,0.19
+DecisionTree,onehot,Average MCC,0.25
+GaussianNB,onehot,Average MCC,0.12
+KNN,onehot,Average MCC,0.27
+LogisticRegression,onehot,Average MCC,0.18
+MLP,onehot,Average MCC,0.27
+NeuralNetwork,onehot,Average MCC,0.17
+RandomForest,onehot,Average MCC,0.26
+SVM,onehot,Average MCC,0.25
+AdaBoost_SAMME,ordinal,Average F1 score,0.48
+DecisionTree,ordinal,Average F1 score,0.5
+GaussianNB,ordinal,Average F1 score,0.39
+KNN,ordinal,Average F1 score,0.55
+LogisticRegression,ordinal,Average F1 score,0.41
+MLP,ordinal,Average F1 score,0.41
+NeuralNetwork,ordinal,Average F1 score,0.41
+RandomForest,ordinal,Average F1 score,0.52
+SVM,ordinal,Average F1 score,0.47
+AdaBoost_SAMME,ordinal,Average Accuracy,0.54
+DecisionTree,ordinal,Average Accuracy,0.56
+GaussianNB,ordinal,Average Accuracy,0.37
+KNN,ordinal,Average Accuracy,0.58
+LogisticRegression,ordinal,Average Accuracy,0.51
+MLP,ordinal,Average Accuracy,0.51
+NeuralNetwork,ordinal,Average Accuracy,0.53
+RandomForest,ordinal,Average Accuracy,0.57
+SVM,ordinal,Average Accuracy,0.54
+AdaBoost_SAMME,ordinal,Average Precision,0.52
+DecisionTree,ordinal,Average Precision,0.5
+GaussianNB,ordinal,Average Precision,0.53
+KNN,ordinal,Average Precision,0.56
+LogisticRegression,ordinal,Average Precision,0.37
+MLP,ordinal,Average Precision,0.36
+NeuralNetwork,ordinal,Average Precision,0.37
+RandomForest,ordinal,Average Precision,0.53
+SVM,ordinal,Average Precision,0.45
+AdaBoost_SAMME,ordinal,Average Recall,0.54
+DecisionTree,ordinal,Average Recall,0.56
+GaussianNB,ordinal,Average Recall,0.37
+KNN,ordinal,Average Recall,0.58
+LogisticRegression,ordinal,Average Recall,0.51
+MLP,ordinal,Average Recall,0.51
+NeuralNetwork,ordinal,Average Recall,0.53
+RandomForest,ordinal,Average Recall,0.57
+SVM,ordinal,Average Recall,0.54
+AdaBoost_SAMME,ordinal,Average MCC,0.24
+DecisionTree,ordinal,Average MCC,0.25
+GaussianNB,ordinal,Average MCC,0.21
+KNN,ordinal,Average MCC,0.33
+LogisticRegression,ordinal,Average MCC,0.12
+MLP,ordinal,Average MCC,0.11
+NeuralNetwork,ordinal,Average MCC,0.1
+RandomForest,ordinal,Average MCC,0.28
+SVM,ordinal,Average MCC,0.2
+AdaBoost_SAMME,polynomial,Average F1 score,0.46
+DecisionTree,polynomial,Average F1 score,0.5
+GaussianNB,polynomial,Average F1 score,0.38
+KNN,polynomial,Average F1 score,0.49
+LogisticRegression,polynomial,Average F1 score,0.45
+MLP,polynomial,Average F1 score,0.43
+NeuralNetwork,polynomial,Average F1 score,0.45
+RandomForest,polynomial,Average F1 score,0.5
+SVM,polynomial,Average F1 score,0.5
+AdaBoost_SAMME,polynomial,Average Accuracy,0.54
+DecisionTree,polynomial,Average Accuracy,0.55
+GaussianNB,polynomial,Average Accuracy,0.36
+KNN,polynomial,Average Accuracy,0.54
+LogisticRegression,polynomial,Average Accuracy,0.52
+MLP,polynomial,Average Accuracy,0.52
+NeuralNetwork,polynomial,Average Accuracy,0.52
+RandomForest,polynomial,Average Accuracy,0.55
+SVM,polynomial,Average Accuracy,0.56
+AdaBoost_SAMME,polynomial,Average Precision,0.49
+DecisionTree,polynomial,Average Precision,0.5
+GaussianNB,polynomial,Average Precision,0.5
+KNN,polynomial,Average Precision,0.46
+LogisticRegression,polynomial,Average Precision,0.45
+MLP,polynomial,Average Precision,0.38
+NeuralNetwork,polynomial,Average Precision,0.42
+RandomForest,polynomial,Average Precision,0.5
+SVM,polynomial,Average Precision,0.48
+AdaBoost_SAMME,polynomial,Average Recall,0.54
+DecisionTree,polynomial,Average Recall,0.55
+GaussianNB,polynomial,Average Recall,0.36
+KNN,polynomial,Average Recall,0.54
+LogisticRegression,polynomial,Average Recall,0.52
+MLP,polynomial,Average Recall,0.52
+NeuralNetwork,polynomial,Average Recall,0.52
+RandomForest,polynomial,Average Recall,0.55
+SVM,polynomial,Average Recall,0.56
+AdaBoost_SAMME,polynomial,Average MCC,0.23
+DecisionTree,polynomial,Average MCC,0.25
+GaussianNB,polynomial,Average MCC,0.2
+KNN,polynomial,Average MCC,0.25
+LogisticRegression,polynomial,Average MCC,0.18
+MLP,polynomial,Average MCC,0.15
+NeuralNetwork,polynomial,Average MCC,0.16
+RandomForest,polynomial,Average MCC,0.25
+SVM,polynomial,Average MCC,0.25
+AdaBoost_SAMME,sum,Average F1 score,0.45
+DecisionTree,sum,Average F1 score,0.49
+GaussianNB,sum,Average F1 score,0.38
+KNN,sum,Average F1 score,0.49
+LogisticRegression,sum,Average F1 score,0.45
+MLP,sum,Average F1 score,0.45
+NeuralNetwork,sum,Average F1 score,0.41
+RandomForest,sum,Average F1 score,0.51
+SVM,sum,Average F1 score,0.51
+AdaBoost_SAMME,sum,Average Accuracy,0.52
+DecisionTree,sum,Average Accuracy,0.55
+GaussianNB,sum,Average Accuracy,0.38
+KNN,sum,Average Accuracy,0.53
+LogisticRegression,sum,Average Accuracy,0.52
+MLP,sum,Average Accuracy,0.53
+NeuralNetwork,sum,Average Accuracy,0.52
+RandomForest,sum,Average Accuracy,0.56
+SVM,sum,Average Accuracy,0.57
+AdaBoost_SAMME,sum,Average Precision,0.47
+DecisionTree,sum,Average Precision,0.49
+GaussianNB,sum,Average Precision,0.52
+KNN,sum,Average Precision,0.48
+LogisticRegression,sum,Average Precision,0.45
+MLP,sum,Average Precision,0.42
+NeuralNetwork,sum,Average Precision,0.36
+RandomForest,sum,Average Precision,0.51
+SVM,sum,Average Precision,0.53
+AdaBoost_SAMME,sum,Average Recall,0.52
+DecisionTree,sum,Average Recall,0.55
+GaussianNB,sum,Average Recall,0.38
+KNN,sum,Average Recall,0.53
+LogisticRegression,sum,Average Recall,0.52
+MLP,sum,Average Recall,0.53
+NeuralNetwork,sum,Average Recall,0.52
+RandomForest,sum,Average Recall,0.56
+SVM,sum,Average Recall,0.57
+AdaBoost_SAMME,sum,Average MCC,0.19
+DecisionTree,sum,Average MCC,0.24
+GaussianNB,sum,Average MCC,0.21
+KNN,sum,Average MCC,0.23
+LogisticRegression,sum,Average MCC,0.18
+MLP,sum,Average MCC,0.2
+NeuralNetwork,sum,Average MCC,0.12
+RandomForest,sum,Average MCC,0.27
+SVM,sum,Average MCC,0.27

@@ -1,0 +1,528 @@
+ANOVA result for Average Accuracy:
+                           sum_sq     df         F   PR(>F)
+C(Q("Encoding Method"))  0.774555   15.0  7.659578  0.00000
+Residual                 0.862911  128.0       NaN      nan
+
+Significant differences found for Average Accuracy, performing post-hoc analysis...
+         Multiple Comparison of Means - Tukey HSD, FWER=0.05         
+=====================================================================
+      group1          group2   meandiff p-adj   lower   upper  reject
+---------------------------------------------------------------------
+backwarddifference       basen   0.0022    1.0 -0.1331  0.1375  False
+backwarddifference      binary  -0.0044    1.0 -0.1397  0.1308  False
+backwarddifference    catboost   0.0178    1.0 -0.1175  0.1531  False
+backwarddifference   frequency   0.0022    1.0 -0.1331  0.1375  False
+backwarddifference     hashing  -0.0044    1.0 -0.1397  0.1308  False
+backwarddifference     helmert   0.0022    1.0 -0.1331  0.1375  False
+backwarddifference  jamesstein   0.0111    1.0 -0.1242  0.1464  False
+backwarddifference       label   0.0033    1.0  -0.132  0.1386  False
+backwarddifference leaveoneout   0.1922 0.0002  0.0569  0.3275   True
+backwarddifference         mca   0.2489    0.0  0.1136  0.3842   True
+backwarddifference   mestimate   0.0156    1.0 -0.1197  0.1508  False
+backwarddifference      onehot  -0.0144    1.0 -0.1497  0.1208  False
+backwarddifference     ordinal   0.0022    1.0 -0.1331  0.1375  False
+backwarddifference  polynomial  -0.0033    1.0 -0.1386   0.132  False
+backwarddifference         sum  -0.0011    1.0 -0.1364  0.1342  False
+             basen      binary  -0.0067    1.0  -0.142  0.1286  False
+             basen    catboost   0.0156    1.0 -0.1197  0.1508  False
+             basen   frequency      0.0    1.0 -0.1353  0.1353  False
+             basen     hashing  -0.0067    1.0  -0.142  0.1286  False
+             basen     helmert      0.0    1.0 -0.1353  0.1353  False
+             basen  jamesstein   0.0089    1.0 -0.1264  0.1442  False
+             basen       label   0.0011    1.0 -0.1342  0.1364  False
+             basen leaveoneout     0.19 0.0003  0.0547  0.3253   True
+             basen         mca   0.2467    0.0  0.1114   0.382   True
+             basen   mestimate   0.0133    1.0  -0.122  0.1486  False
+             basen      onehot  -0.0167    1.0  -0.152  0.1186  False
+             basen     ordinal      0.0    1.0 -0.1353  0.1353  False
+             basen  polynomial  -0.0056    1.0 -0.1408  0.1297  False
+             basen         sum  -0.0033    1.0 -0.1386   0.132  False
+            binary    catboost   0.0222    1.0 -0.1131  0.1575  False
+            binary   frequency   0.0067    1.0 -0.1286   0.142  False
+            binary     hashing      0.0    1.0 -0.1353  0.1353  False
+            binary     helmert   0.0067    1.0 -0.1286   0.142  False
+            binary  jamesstein   0.0156    1.0 -0.1197  0.1508  False
+            binary       label   0.0078    1.0 -0.1275  0.1431  False
+            binary leaveoneout   0.1967 0.0001  0.0614   0.332   True
+            binary         mca   0.2533    0.0   0.118  0.3886   True
+            binary   mestimate     0.02    1.0 -0.1153  0.1553  False
+            binary      onehot    -0.01    1.0 -0.1453  0.1253  False
+            binary     ordinal   0.0067    1.0 -0.1286   0.142  False
+            binary  polynomial   0.0011    1.0 -0.1342  0.1364  False
+            binary         sum   0.0033    1.0  -0.132  0.1386  False
+          catboost   frequency  -0.0156    1.0 -0.1508  0.1197  False
+          catboost     hashing  -0.0222    1.0 -0.1575  0.1131  False
+          catboost     helmert  -0.0156    1.0 -0.1508  0.1197  False
+          catboost  jamesstein  -0.0067    1.0  -0.142  0.1286  False
+          catboost       label  -0.0144    1.0 -0.1497  0.1208  False
+          catboost leaveoneout   0.1744 0.0015  0.0392  0.3097   True
+          catboost         mca   0.2311    0.0  0.0958  0.3664   True
+          catboost   mestimate  -0.0022    1.0 -0.1375  0.1331  False
+          catboost      onehot  -0.0322    1.0 -0.1675  0.1031  False
+          catboost     ordinal  -0.0156    1.0 -0.1508  0.1197  False
+          catboost  polynomial  -0.0211    1.0 -0.1564  0.1142  False
+          catboost         sum  -0.0189    1.0 -0.1542  0.1164  False
+         frequency     hashing  -0.0067    1.0  -0.142  0.1286  False
+         frequency     helmert      0.0    1.0 -0.1353  0.1353  False
+         frequency  jamesstein   0.0089    1.0 -0.1264  0.1442  False
+         frequency       label   0.0011    1.0 -0.1342  0.1364  False
+         frequency leaveoneout     0.19 0.0003  0.0547  0.3253   True
+         frequency         mca   0.2467    0.0  0.1114   0.382   True
+         frequency   mestimate   0.0133    1.0  -0.122  0.1486  False
+         frequency      onehot  -0.0167    1.0  -0.152  0.1186  False
+         frequency     ordinal      0.0    1.0 -0.1353  0.1353  False
+         frequency  polynomial  -0.0056    1.0 -0.1408  0.1297  False
+         frequency         sum  -0.0033    1.0 -0.1386   0.132  False
+           hashing     helmert   0.0067    1.0 -0.1286   0.142  False
+           hashing  jamesstein   0.0156    1.0 -0.1197  0.1508  False
+           hashing       label   0.0078    1.0 -0.1275  0.1431  False
+           hashing leaveoneout   0.1967 0.0001  0.0614   0.332   True
+           hashing         mca   0.2533    0.0   0.118  0.3886   True
+           hashing   mestimate     0.02    1.0 -0.1153  0.1553  False
+           hashing      onehot    -0.01    1.0 -0.1453  0.1253  False
+           hashing     ordinal   0.0067    1.0 -0.1286   0.142  False
+           hashing  polynomial   0.0011    1.0 -0.1342  0.1364  False
+           hashing         sum   0.0033    1.0  -0.132  0.1386  False
+           helmert  jamesstein   0.0089    1.0 -0.1264  0.1442  False
+           helmert       label   0.0011    1.0 -0.1342  0.1364  False
+           helmert leaveoneout     0.19 0.0003  0.0547  0.3253   True
+           helmert         mca   0.2467    0.0  0.1114   0.382   True
+           helmert   mestimate   0.0133    1.0  -0.122  0.1486  False
+           helmert      onehot  -0.0167    1.0  -0.152  0.1186  False
+           helmert     ordinal      0.0    1.0 -0.1353  0.1353  False
+           helmert  polynomial  -0.0056    1.0 -0.1408  0.1297  False
+           helmert         sum  -0.0033    1.0 -0.1386   0.132  False
+        jamesstein       label  -0.0078    1.0 -0.1431  0.1275  False
+        jamesstein leaveoneout   0.1811 0.0008  0.0458  0.3164   True
+        jamesstein         mca   0.2378    0.0  0.1025  0.3731   True
+        jamesstein   mestimate   0.0044    1.0 -0.1308  0.1397  False
+        jamesstein      onehot  -0.0256    1.0 -0.1608  0.1097  False
+        jamesstein     ordinal  -0.0089    1.0 -0.1442  0.1264  False
+        jamesstein  polynomial  -0.0144    1.0 -0.1497  0.1208  False
+        jamesstein         sum  -0.0122    1.0 -0.1475  0.1231  False
+             label leaveoneout   0.1889 0.0003  0.0536  0.3242   True
+             label         mca   0.2456    0.0  0.1103  0.3808   True
+             label   mestimate   0.0122    1.0 -0.1231  0.1475  False
+             label      onehot  -0.0178    1.0 -0.1531  0.1175  False
+             label     ordinal  -0.0011    1.0 -0.1364  0.1342  False
+             label  polynomial  -0.0067    1.0  -0.142  0.1286  False
+             label         sum  -0.0044    1.0 -0.1397  0.1308  False
+       leaveoneout         mca   0.0567 0.9846 -0.0786   0.192  False
+       leaveoneout   mestimate  -0.1767 0.0012  -0.312 -0.0414   True
+       leaveoneout      onehot  -0.2067    0.0  -0.342 -0.0714   True
+       leaveoneout     ordinal    -0.19 0.0003 -0.3253 -0.0547   True
+       leaveoneout  polynomial  -0.1956 0.0002 -0.3308 -0.0603   True
+       leaveoneout         sum  -0.1933 0.0002 -0.3286  -0.058   True
+               mca   mestimate  -0.2333    0.0 -0.3686  -0.098   True
+               mca      onehot  -0.2633    0.0 -0.3986  -0.128   True
+               mca     ordinal  -0.2467    0.0  -0.382 -0.1114   True
+               mca  polynomial  -0.2522    0.0 -0.3875 -0.1169   True
+               mca         sum    -0.25    0.0 -0.3853 -0.1147   True
+         mestimate      onehot    -0.03    1.0 -0.1653  0.1053  False
+         mestimate     ordinal  -0.0133    1.0 -0.1486   0.122  False
+         mestimate  polynomial  -0.0189    1.0 -0.1542  0.1164  False
+         mestimate         sum  -0.0167    1.0  -0.152  0.1186  False
+            onehot     ordinal   0.0167    1.0 -0.1186   0.152  False
+            onehot  polynomial   0.0111    1.0 -0.1242  0.1464  False
+            onehot         sum   0.0133    1.0  -0.122  0.1486  False
+           ordinal  polynomial  -0.0056    1.0 -0.1408  0.1297  False
+           ordinal         sum  -0.0033    1.0 -0.1386   0.132  False
+        polynomial         sum   0.0022    1.0 -0.1331  0.1375  False
+---------------------------------------------------------------------
+
+ANOVA result for Average Precision:
+                           sum_sq     df         F   PR(>F)
+C(Q("Encoding Method"))  1.041531   15.0  9.351128  0.00000
+Residual                 0.950444  128.0       NaN      nan
+
+Significant differences found for Average Precision, performing post-hoc analysis...
+         Multiple Comparison of Means - Tukey HSD, FWER=0.05         
+=====================================================================
+      group1          group2   meandiff p-adj   lower   upper  reject
+---------------------------------------------------------------------
+backwarddifference       basen  -0.0111    1.0 -0.1531  0.1309  False
+backwarddifference      binary   0.0178    1.0 -0.1242  0.1598  False
+backwarddifference    catboost   0.0044    1.0 -0.1375  0.1464  False
+backwarddifference   frequency  -0.0122    1.0 -0.1542  0.1298  False
+backwarddifference     hashing    -0.07 0.9367  -0.212   0.072  False
+backwarddifference     helmert   0.0167    1.0 -0.1253  0.1587  False
+backwarddifference  jamesstein  -0.0144    1.0 -0.1564  0.1275  False
+backwarddifference       label   0.0033    1.0 -0.1387  0.1453  False
+backwarddifference leaveoneout   0.2044 0.0002  0.0625  0.3464   True
+backwarddifference         mca   0.2833    0.0  0.1413  0.4253   True
+backwarddifference   mestimate   0.0156    1.0 -0.1264  0.1575  False
+backwarddifference      onehot     0.01    1.0  -0.132   0.152  False
+backwarddifference     ordinal      0.0    1.0  -0.142   0.142  False
+backwarddifference  polynomial  -0.0011    1.0 -0.1431  0.1409  False
+backwarddifference         sum   0.0044    1.0 -0.1375  0.1464  False
+             basen      binary   0.0289    1.0 -0.1131  0.1709  False
+             basen    catboost   0.0156    1.0 -0.1264  0.1575  False
+             basen   frequency  -0.0011    1.0 -0.1431  0.1409  False
+             basen     hashing  -0.0589  0.986 -0.2009  0.0831  False
+             basen     helmert   0.0278    1.0 -0.1142  0.1698  False
+             basen  jamesstein  -0.0033    1.0 -0.1453  0.1387  False
+             basen       label   0.0144    1.0 -0.1275  0.1564  False
+             basen leaveoneout   0.2156 0.0001  0.0736  0.3575   True
+             basen         mca   0.2944    0.0  0.1525  0.4364   True
+             basen   mestimate   0.0267    1.0 -0.1153  0.1687  False
+             basen      onehot   0.0211    1.0 -0.1209  0.1631  False
+             basen     ordinal   0.0111    1.0 -0.1309  0.1531  False
+             basen  polynomial     0.01    1.0  -0.132   0.152  False
+             basen         sum   0.0156    1.0 -0.1264  0.1575  False
+            binary    catboost  -0.0133    1.0 -0.1553  0.1287  False
+            binary   frequency    -0.03    1.0  -0.172   0.112  False
+            binary     hashing  -0.0878  0.722 -0.2298  0.0542  False
+            binary     helmert  -0.0011    1.0 -0.1431  0.1409  False
+            binary  jamesstein  -0.0322    1.0 -0.1742  0.1098  False
+            binary       label  -0.0144    1.0 -0.1564  0.1275  False
+            binary leaveoneout   0.1867 0.0011  0.0447  0.3287   True
+            binary         mca   0.2656    0.0  0.1236  0.4075   True
+            binary   mestimate  -0.0022    1.0 -0.1442  0.1398  False
+            binary      onehot  -0.0078    1.0 -0.1498  0.1342  False
+            binary     ordinal  -0.0178    1.0 -0.1598  0.1242  False
+            binary  polynomial  -0.0189    1.0 -0.1609  0.1231  False
+            binary         sum  -0.0133    1.0 -0.1553  0.1287  False
+          catboost   frequency  -0.0167    1.0 -0.1587  0.1253  False
+          catboost     hashing  -0.0744 0.8997 -0.2164  0.0675  False
+          catboost     helmert   0.0122    1.0 -0.1298  0.1542  False
+          catboost  jamesstein  -0.0189    1.0 -0.1609  0.1231  False
+          catboost       label  -0.0011    1.0 -0.1431  0.1409  False
+          catboost leaveoneout      0.2 0.0003   0.058   0.342   True
+          catboost         mca   0.2789    0.0  0.1369  0.4209   True
+          catboost   mestimate   0.0111    1.0 -0.1309  0.1531  False
+          catboost      onehot   0.0056    1.0 -0.1364  0.1475  False
+          catboost     ordinal  -0.0044    1.0 -0.1464  0.1375  False
+          catboost  polynomial  -0.0056    1.0 -0.1475  0.1364  False
+          catboost         sum      0.0    1.0  -0.142   0.142  False
+         frequency     hashing  -0.0578 0.9883 -0.1998  0.0842  False
+         frequency     helmert   0.0289    1.0 -0.1131  0.1709  False
+         frequency  jamesstein  -0.0022    1.0 -0.1442  0.1398  False
+         frequency       label   0.0156    1.0 -0.1264  0.1575  False
+         frequency leaveoneout   0.2167    0.0  0.0747  0.3587   True
+         frequency         mca   0.2956    0.0  0.1536  0.4375   True
+         frequency   mestimate   0.0278    1.0 -0.1142  0.1698  False
+         frequency      onehot   0.0222    1.0 -0.1198  0.1642  False
+         frequency     ordinal   0.0122    1.0 -0.1298  0.1542  False
+         frequency  polynomial   0.0111    1.0 -0.1309  0.1531  False
+         frequency         sum   0.0167    1.0 -0.1253  0.1587  False
+           hashing     helmert   0.0867 0.7401 -0.0553  0.2287  False
+           hashing  jamesstein   0.0556 0.9921 -0.0864  0.1975  False
+           hashing       label   0.0733   0.91 -0.0687  0.2153  False
+           hashing leaveoneout   0.2744    0.0  0.1325  0.4164   True
+           hashing         mca   0.3533    0.0  0.2113  0.4953   True
+           hashing   mestimate   0.0856 0.7577 -0.0564  0.2275  False
+           hashing      onehot     0.08 0.8371  -0.062   0.222  False
+           hashing     ordinal     0.07 0.9367  -0.072   0.212  False
+           hashing  polynomial   0.0689 0.9443 -0.0731  0.2109  False
+           hashing         sum   0.0744 0.8997 -0.0675  0.2164  False
+           helmert  jamesstein  -0.0311    1.0 -0.1731  0.1109  False
+           helmert       label  -0.0133    1.0 -0.1553  0.1287  False
+           helmert leaveoneout   0.1878  0.001  0.0458  0.3298   True
+           helmert         mca   0.2667    0.0  0.1247  0.4087   True
+           helmert   mestimate  -0.0011    1.0 -0.1431  0.1409  False
+           helmert      onehot  -0.0067    1.0 -0.1487  0.1353  False
+           helmert     ordinal  -0.0167    1.0 -0.1587  0.1253  False
+           helmert  polynomial  -0.0178    1.0 -0.1598  0.1242  False
+           helmert         sum  -0.0122    1.0 -0.1542  0.1298  False
+        jamesstein       label   0.0178    1.0 -0.1242  0.1598  False
+        jamesstein leaveoneout   0.2189    0.0  0.0769  0.3609   True
+        jamesstein         mca   0.2978    0.0  0.1558  0.4398   True
+        jamesstein   mestimate     0.03    1.0  -0.112   0.172  False
+        jamesstein      onehot   0.0244    1.0 -0.1175  0.1664  False
+        jamesstein     ordinal   0.0144    1.0 -0.1275  0.1564  False
+        jamesstein  polynomial   0.0133    1.0 -0.1287  0.1553  False
+        jamesstein         sum   0.0189    1.0 -0.1231  0.1609  False
+             label leaveoneout   0.2011 0.0003  0.0591  0.3431   True
+             label         mca     0.28    0.0   0.138   0.422   True
+             label   mestimate   0.0122    1.0 -0.1298  0.1542  False
+             label      onehot   0.0067    1.0 -0.1353  0.1487  False
+             label     ordinal  -0.0033    1.0 -0.1453  0.1387  False
+             label  polynomial  -0.0044    1.0 -0.1464  0.1375  False
+             label         sum   0.0011    1.0 -0.1409  0.1431  False
+       leaveoneout         mca   0.0789  0.851 -0.0631  0.2209  False
+       leaveoneout   mestimate  -0.1889 0.0009 -0.3309 -0.0469   True
+       leaveoneout      onehot  -0.1944 0.0005 -0.3364 -0.0525   True
+       leaveoneout     ordinal  -0.2044 0.0002 -0.3464 -0.0625   True
+       leaveoneout  polynomial  -0.2056 0.0002 -0.3475 -0.0636   True
+       leaveoneout         sum     -0.2 0.0003  -0.342  -0.058   True
+               mca   mestimate  -0.2678    0.0 -0.4098 -0.1258   True
+               mca      onehot  -0.2733    0.0 -0.4153 -0.1313   True
+               mca     ordinal  -0.2833    0.0 -0.4253 -0.1413   True
+               mca  polynomial  -0.2844    0.0 -0.4264 -0.1425   True
+               mca         sum  -0.2789    0.0 -0.4209 -0.1369   True
+         mestimate      onehot  -0.0056    1.0 -0.1475  0.1364  False
+         mestimate     ordinal  -0.0156    1.0 -0.1575  0.1264  False
+         mestimate  polynomial  -0.0167    1.0 -0.1587  0.1253  False
+         mestimate         sum  -0.0111    1.0 -0.1531  0.1309  False
+            onehot     ordinal    -0.01    1.0  -0.152   0.132  False
+            onehot  polynomial  -0.0111    1.0 -0.1531  0.1309  False
+            onehot         sum  -0.0056    1.0 -0.1475  0.1364  False
+           ordinal  polynomial  -0.0011    1.0 -0.1431  0.1409  False
+           ordinal         sum   0.0044    1.0 -0.1375  0.1464  False
+        polynomial         sum   0.0056    1.0 -0.1364  0.1475  False
+---------------------------------------------------------------------
+
+ANOVA result for Average Recall:
+                           sum_sq     df         F   PR(>F)
+C(Q("Encoding Method"))  0.774555   15.0  7.659578  0.00000
+Residual                 0.862911  128.0       NaN      nan
+
+Significant differences found for Average Recall, performing post-hoc analysis...
+         Multiple Comparison of Means - Tukey HSD, FWER=0.05         
+=====================================================================
+      group1          group2   meandiff p-adj   lower   upper  reject
+---------------------------------------------------------------------
+backwarddifference       basen   0.0022    1.0 -0.1331  0.1375  False
+backwarddifference      binary  -0.0044    1.0 -0.1397  0.1308  False
+backwarddifference    catboost   0.0178    1.0 -0.1175  0.1531  False
+backwarddifference   frequency   0.0022    1.0 -0.1331  0.1375  False
+backwarddifference     hashing  -0.0044    1.0 -0.1397  0.1308  False
+backwarddifference     helmert   0.0022    1.0 -0.1331  0.1375  False
+backwarddifference  jamesstein   0.0111    1.0 -0.1242  0.1464  False
+backwarddifference       label   0.0033    1.0  -0.132  0.1386  False
+backwarddifference leaveoneout   0.1922 0.0002  0.0569  0.3275   True
+backwarddifference         mca   0.2489    0.0  0.1136  0.3842   True
+backwarddifference   mestimate   0.0156    1.0 -0.1197  0.1508  False
+backwarddifference      onehot  -0.0144    1.0 -0.1497  0.1208  False
+backwarddifference     ordinal   0.0022    1.0 -0.1331  0.1375  False
+backwarddifference  polynomial  -0.0033    1.0 -0.1386   0.132  False
+backwarddifference         sum  -0.0011    1.0 -0.1364  0.1342  False
+             basen      binary  -0.0067    1.0  -0.142  0.1286  False
+             basen    catboost   0.0156    1.0 -0.1197  0.1508  False
+             basen   frequency      0.0    1.0 -0.1353  0.1353  False
+             basen     hashing  -0.0067    1.0  -0.142  0.1286  False
+             basen     helmert      0.0    1.0 -0.1353  0.1353  False
+             basen  jamesstein   0.0089    1.0 -0.1264  0.1442  False
+             basen       label   0.0011    1.0 -0.1342  0.1364  False
+             basen leaveoneout     0.19 0.0003  0.0547  0.3253   True
+             basen         mca   0.2467    0.0  0.1114   0.382   True
+             basen   mestimate   0.0133    1.0  -0.122  0.1486  False
+             basen      onehot  -0.0167    1.0  -0.152  0.1186  False
+             basen     ordinal      0.0    1.0 -0.1353  0.1353  False
+             basen  polynomial  -0.0056    1.0 -0.1408  0.1297  False
+             basen         sum  -0.0033    1.0 -0.1386   0.132  False
+            binary    catboost   0.0222    1.0 -0.1131  0.1575  False
+            binary   frequency   0.0067    1.0 -0.1286   0.142  False
+            binary     hashing      0.0    1.0 -0.1353  0.1353  False
+            binary     helmert   0.0067    1.0 -0.1286   0.142  False
+            binary  jamesstein   0.0156    1.0 -0.1197  0.1508  False
+            binary       label   0.0078    1.0 -0.1275  0.1431  False
+            binary leaveoneout   0.1967 0.0001  0.0614   0.332   True
+            binary         mca   0.2533    0.0   0.118  0.3886   True
+            binary   mestimate     0.02    1.0 -0.1153  0.1553  False
+            binary      onehot    -0.01    1.0 -0.1453  0.1253  False
+            binary     ordinal   0.0067    1.0 -0.1286   0.142  False
+            binary  polynomial   0.0011    1.0 -0.1342  0.1364  False
+            binary         sum   0.0033    1.0  -0.132  0.1386  False
+          catboost   frequency  -0.0156    1.0 -0.1508  0.1197  False
+          catboost     hashing  -0.0222    1.0 -0.1575  0.1131  False
+          catboost     helmert  -0.0156    1.0 -0.1508  0.1197  False
+          catboost  jamesstein  -0.0067    1.0  -0.142  0.1286  False
+          catboost       label  -0.0144    1.0 -0.1497  0.1208  False
+          catboost leaveoneout   0.1744 0.0015  0.0392  0.3097   True
+          catboost         mca   0.2311    0.0  0.0958  0.3664   True
+          catboost   mestimate  -0.0022    1.0 -0.1375  0.1331  False
+          catboost      onehot  -0.0322    1.0 -0.1675  0.1031  False
+          catboost     ordinal  -0.0156    1.0 -0.1508  0.1197  False
+          catboost  polynomial  -0.0211    1.0 -0.1564  0.1142  False
+          catboost         sum  -0.0189    1.0 -0.1542  0.1164  False
+         frequency     hashing  -0.0067    1.0  -0.142  0.1286  False
+         frequency     helmert      0.0    1.0 -0.1353  0.1353  False
+         frequency  jamesstein   0.0089    1.0 -0.1264  0.1442  False
+         frequency       label   0.0011    1.0 -0.1342  0.1364  False
+         frequency leaveoneout     0.19 0.0003  0.0547  0.3253   True
+         frequency         mca   0.2467    0.0  0.1114   0.382   True
+         frequency   mestimate   0.0133    1.0  -0.122  0.1486  False
+         frequency      onehot  -0.0167    1.0  -0.152  0.1186  False
+         frequency     ordinal      0.0    1.0 -0.1353  0.1353  False
+         frequency  polynomial  -0.0056    1.0 -0.1408  0.1297  False
+         frequency         sum  -0.0033    1.0 -0.1386   0.132  False
+           hashing     helmert   0.0067    1.0 -0.1286   0.142  False
+           hashing  jamesstein   0.0156    1.0 -0.1197  0.1508  False
+           hashing       label   0.0078    1.0 -0.1275  0.1431  False
+           hashing leaveoneout   0.1967 0.0001  0.0614   0.332   True
+           hashing         mca   0.2533    0.0   0.118  0.3886   True
+           hashing   mestimate     0.02    1.0 -0.1153  0.1553  False
+           hashing      onehot    -0.01    1.0 -0.1453  0.1253  False
+           hashing     ordinal   0.0067    1.0 -0.1286   0.142  False
+           hashing  polynomial   0.0011    1.0 -0.1342  0.1364  False
+           hashing         sum   0.0033    1.0  -0.132  0.1386  False
+           helmert  jamesstein   0.0089    1.0 -0.1264  0.1442  False
+           helmert       label   0.0011    1.0 -0.1342  0.1364  False
+           helmert leaveoneout     0.19 0.0003  0.0547  0.3253   True
+           helmert         mca   0.2467    0.0  0.1114   0.382   True
+           helmert   mestimate   0.0133    1.0  -0.122  0.1486  False
+           helmert      onehot  -0.0167    1.0  -0.152  0.1186  False
+           helmert     ordinal      0.0    1.0 -0.1353  0.1353  False
+           helmert  polynomial  -0.0056    1.0 -0.1408  0.1297  False
+           helmert         sum  -0.0033    1.0 -0.1386   0.132  False
+        jamesstein       label  -0.0078    1.0 -0.1431  0.1275  False
+        jamesstein leaveoneout   0.1811 0.0008  0.0458  0.3164   True
+        jamesstein         mca   0.2378    0.0  0.1025  0.3731   True
+        jamesstein   mestimate   0.0044    1.0 -0.1308  0.1397  False
+        jamesstein      onehot  -0.0256    1.0 -0.1608  0.1097  False
+        jamesstein     ordinal  -0.0089    1.0 -0.1442  0.1264  False
+        jamesstein  polynomial  -0.0144    1.0 -0.1497  0.1208  False
+        jamesstein         sum  -0.0122    1.0 -0.1475  0.1231  False
+             label leaveoneout   0.1889 0.0003  0.0536  0.3242   True
+             label         mca   0.2456    0.0  0.1103  0.3808   True
+             label   mestimate   0.0122    1.0 -0.1231  0.1475  False
+             label      onehot  -0.0178    1.0 -0.1531  0.1175  False
+             label     ordinal  -0.0011    1.0 -0.1364  0.1342  False
+             label  polynomial  -0.0067    1.0  -0.142  0.1286  False
+             label         sum  -0.0044    1.0 -0.1397  0.1308  False
+       leaveoneout         mca   0.0567 0.9846 -0.0786   0.192  False
+       leaveoneout   mestimate  -0.1767 0.0012  -0.312 -0.0414   True
+       leaveoneout      onehot  -0.2067    0.0  -0.342 -0.0714   True
+       leaveoneout     ordinal    -0.19 0.0003 -0.3253 -0.0547   True
+       leaveoneout  polynomial  -0.1956 0.0002 -0.3308 -0.0603   True
+       leaveoneout         sum  -0.1933 0.0002 -0.3286  -0.058   True
+               mca   mestimate  -0.2333    0.0 -0.3686  -0.098   True
+               mca      onehot  -0.2633    0.0 -0.3986  -0.128   True
+               mca     ordinal  -0.2467    0.0  -0.382 -0.1114   True
+               mca  polynomial  -0.2522    0.0 -0.3875 -0.1169   True
+               mca         sum    -0.25    0.0 -0.3853 -0.1147   True
+         mestimate      onehot    -0.03    1.0 -0.1653  0.1053  False
+         mestimate     ordinal  -0.0133    1.0 -0.1486   0.122  False
+         mestimate  polynomial  -0.0189    1.0 -0.1542  0.1164  False
+         mestimate         sum  -0.0167    1.0  -0.152  0.1186  False
+            onehot     ordinal   0.0167    1.0 -0.1186   0.152  False
+            onehot  polynomial   0.0111    1.0 -0.1242  0.1464  False
+            onehot         sum   0.0133    1.0  -0.122  0.1486  False
+           ordinal  polynomial  -0.0056    1.0 -0.1408  0.1297  False
+           ordinal         sum  -0.0033    1.0 -0.1386   0.132  False
+        polynomial         sum   0.0022    1.0 -0.1331  0.1375  False
+---------------------------------------------------------------------
+
+ANOVA result for Average F1 score:
+                           sum_sq     df         F   PR(>F)
+C(Q("Encoding Method"))  1.007177   15.0  9.999897  0.00000
+Residual                 0.859467  128.0       NaN      nan
+
+Significant differences found for Average F1 score, performing post-hoc analysis...
+         Multiple Comparison of Means - Tukey HSD, FWER=0.05         
+=====================================================================
+      group1          group2   meandiff p-adj   lower   upper  reject
+---------------------------------------------------------------------
+backwarddifference       basen  -0.0044    1.0 -0.1395  0.1306  False
+backwarddifference      binary  -0.0056    1.0 -0.1406  0.1295  False
+backwarddifference    catboost   0.0178    1.0 -0.1172  0.1528  False
+backwarddifference   frequency  -0.0044    1.0 -0.1395  0.1306  False
+backwarddifference     hashing  -0.0456 0.9984 -0.1806  0.0895  False
+backwarddifference     helmert     0.01    1.0  -0.125   0.145  False
+backwarddifference  jamesstein  -0.0011    1.0 -0.1361  0.1339  False
+backwarddifference       label      0.0    1.0  -0.135   0.135  False
+backwarddifference leaveoneout   0.2044 0.0001  0.0694  0.3395   True
+backwarddifference         mca   0.2833    0.0  0.1483  0.4184   True
+backwarddifference   mestimate   0.0111    1.0 -0.1239  0.1461  False
+backwarddifference      onehot  -0.0067    1.0 -0.1417  0.1284  False
+backwarddifference     ordinal  -0.0022    1.0 -0.1372  0.1328  False
+backwarddifference  polynomial      0.0    1.0  -0.135   0.135  False
+backwarddifference         sum  -0.0022    1.0 -0.1372  0.1328  False
+             basen      binary  -0.0011    1.0 -0.1361  0.1339  False
+             basen    catboost   0.0222    1.0 -0.1128  0.1572  False
+             basen   frequency      0.0    1.0  -0.135   0.135  False
+             basen     hashing  -0.0411 0.9995 -0.1761  0.0939  False
+             basen     helmert   0.0144    1.0 -0.1206  0.1495  False
+             basen  jamesstein   0.0033    1.0 -0.1317  0.1384  False
+             basen       label   0.0044    1.0 -0.1306  0.1395  False
+             basen leaveoneout   0.2089    0.0  0.0739  0.3439   True
+             basen         mca   0.2878    0.0  0.1528  0.4228   True
+             basen   mestimate   0.0156    1.0 -0.1195  0.1506  False
+             basen      onehot  -0.0022    1.0 -0.1372  0.1328  False
+             basen     ordinal   0.0022    1.0 -0.1328  0.1372  False
+             basen  polynomial   0.0044    1.0 -0.1306  0.1395  False
+             basen         sum   0.0022    1.0 -0.1328  0.1372  False
+            binary    catboost   0.0233    1.0 -0.1117  0.1584  False
+            binary   frequency   0.0011    1.0 -0.1339  0.1361  False
+            binary     hashing    -0.04 0.9996  -0.175   0.095  False
+            binary     helmert   0.0156    1.0 -0.1195  0.1506  False
+            binary  jamesstein   0.0044    1.0 -0.1306  0.1395  False
+            binary       label   0.0056    1.0 -0.1295  0.1406  False
+            binary leaveoneout     0.21    0.0   0.075   0.345   True
+            binary         mca   0.2889    0.0  0.1539  0.4239   True
+            binary   mestimate   0.0167    1.0 -0.1184  0.1517  False
+            binary      onehot  -0.0011    1.0 -0.1361  0.1339  False
+            binary     ordinal   0.0033    1.0 -0.1317  0.1384  False
+            binary  polynomial   0.0056    1.0 -0.1295  0.1406  False
+            binary         sum   0.0033    1.0 -0.1317  0.1384  False
+          catboost   frequency  -0.0222    1.0 -0.1572  0.1128  False
+          catboost     hashing  -0.0633 0.9577 -0.1984  0.0717  False
+          catboost     helmert  -0.0078    1.0 -0.1428  0.1272  False
+          catboost  jamesstein  -0.0189    1.0 -0.1539  0.1161  False
+          catboost       label  -0.0178    1.0 -0.1528  0.1172  False
+          catboost leaveoneout   0.1867 0.0004  0.0516  0.3217   True
+          catboost         mca   0.2656    0.0  0.1305  0.4006   True
+          catboost   mestimate  -0.0067    1.0 -0.1417  0.1284  False
+          catboost      onehot  -0.0244    1.0 -0.1595  0.1106  False
+          catboost     ordinal    -0.02    1.0  -0.155   0.115  False
+          catboost  polynomial  -0.0178    1.0 -0.1528  0.1172  False
+          catboost         sum    -0.02    1.0  -0.155   0.115  False
+         frequency     hashing  -0.0411 0.9995 -0.1761  0.0939  False
+         frequency     helmert   0.0144    1.0 -0.1206  0.1495  False
+         frequency  jamesstein   0.0033    1.0 -0.1317  0.1384  False
+         frequency       label   0.0044    1.0 -0.1306  0.1395  False
+         frequency leaveoneout   0.2089    0.0  0.0739  0.3439   True
+         frequency         mca   0.2878    0.0  0.1528  0.4228   True
+         frequency   mestimate   0.0156    1.0 -0.1195  0.1506  False
+         frequency      onehot  -0.0022    1.0 -0.1372  0.1328  False
+         frequency     ordinal   0.0022    1.0 -0.1328  0.1372  False
+         frequency  polynomial   0.0044    1.0 -0.1306  0.1395  False
+         frequency         sum   0.0022    1.0 -0.1328  0.1372  False
+           hashing     helmert   0.0556  0.987 -0.0795  0.1906  False
+           hashing  jamesstein   0.0444 0.9988 -0.0906  0.1795  False
+           hashing       label   0.0456 0.9984 -0.0895  0.1806  False
+           hashing leaveoneout     0.25    0.0   0.115   0.385   True
+           hashing         mca   0.3289    0.0  0.1939  0.4639   True
+           hashing   mestimate   0.0567 0.9843 -0.0784  0.1917  False
+           hashing      onehot   0.0389 0.9997 -0.0961  0.1739  False
+           hashing     ordinal   0.0433 0.9991 -0.0917  0.1784  False
+           hashing  polynomial   0.0456 0.9984 -0.0895  0.1806  False
+           hashing         sum   0.0433 0.9991 -0.0917  0.1784  False
+           helmert  jamesstein  -0.0111    1.0 -0.1461  0.1239  False
+           helmert       label    -0.01    1.0  -0.145   0.125  False
+           helmert leaveoneout   0.1944 0.0002  0.0594  0.3295   True
+           helmert         mca   0.2733    0.0  0.1383  0.4084   True
+           helmert   mestimate   0.0011    1.0 -0.1339  0.1361  False
+           helmert      onehot  -0.0167    1.0 -0.1517  0.1184  False
+           helmert     ordinal  -0.0122    1.0 -0.1472  0.1228  False
+           helmert  polynomial    -0.01    1.0  -0.145   0.125  False
+           helmert         sum  -0.0122    1.0 -0.1472  0.1228  False
+        jamesstein       label   0.0011    1.0 -0.1339  0.1361  False
+        jamesstein leaveoneout   0.2056 0.0001  0.0705  0.3406   True
+        jamesstein         mca   0.2844    0.0  0.1494  0.4195   True
+        jamesstein   mestimate   0.0122    1.0 -0.1228  0.1472  False
+        jamesstein      onehot  -0.0056    1.0 -0.1406  0.1295  False
+        jamesstein     ordinal  -0.0011    1.0 -0.1361  0.1339  False
+        jamesstein  polynomial   0.0011    1.0 -0.1339  0.1361  False
+        jamesstein         sum  -0.0011    1.0 -0.1361  0.1339  False
+             label leaveoneout   0.2044 0.0001  0.0694  0.3395   True
+             label         mca   0.2833    0.0  0.1483  0.4184   True
+             label   mestimate   0.0111    1.0 -0.1239  0.1461  False
+             label      onehot  -0.0067    1.0 -0.1417  0.1284  False
+             label     ordinal  -0.0022    1.0 -0.1372  0.1328  False
+             label  polynomial      0.0    1.0  -0.135   0.135  False
+             label         sum  -0.0022    1.0 -0.1372  0.1328  False
+       leaveoneout         mca   0.0789 0.7967 -0.0561  0.2139  False
+       leaveoneout   mestimate  -0.1933 0.0002 -0.3284 -0.0583   True
+       leaveoneout      onehot  -0.2111    0.0 -0.3461 -0.0761   True
+       leaveoneout     ordinal  -0.2067    0.0 -0.3417 -0.0716   True
+       leaveoneout  polynomial  -0.2044 0.0001 -0.3395 -0.0694   True
+       leaveoneout         sum  -0.2067    0.0 -0.3417 -0.0716   True
+               mca   mestimate  -0.2722    0.0 -0.4072 -0.1372   True
+               mca      onehot    -0.29    0.0  -0.425  -0.155   True
+               mca     ordinal  -0.2856    0.0 -0.4206 -0.1505   True
+               mca  polynomial  -0.2833    0.0 -0.4184 -0.1483   True
+               mca         sum  -0.2856    0.0 -0.4206 -0.1505   True
+         mestimate      onehot  -0.0178    1.0 -0.1528  0.1172  False
+         mestimate     ordinal  -0.0133    1.0 -0.1484  0.1217  False
+         mestimate  polynomial  -0.0111    1.0 -0.1461  0.1239  False
+         mestimate         sum  -0.0133    1.0 -0.1484  0.1217  False
+            onehot     ordinal   0.0044    1.0 -0.1306  0.1395  False
+            onehot  polynomial   0.0067    1.0 -0.1284  0.1417  False
+            onehot         sum   0.0044    1.0 -0.1306  0.1395  False
+           ordinal  polynomial   0.0022    1.0 -0.1328  0.1372  False
+           ordinal         sum     -0.0    1.0  -0.135   0.135  False
+        polynomial         sum  -0.0022    1.0 -0.1372  0.1328  False
+---------------------------------------------------------------------
+
